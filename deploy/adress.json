@@ -1,0 +1,20 @@
+[
+    {
+        "weth": "0xe2353c67069cbc5627145f4bd08fa5b424c51bf0",
+        "value": 400000000000000
+    },
+    {
+        "factory": "0xd801e5223aae7dbcb4c31bd6b651a4df6fdeba81",
+        "value": 3800000000000000
+    },
+    {
+        "platform": "0x934a20886682626438576103fa783dec8122eb39",
+        "value": 1900000000000000
+    },
+    {
+        "dgas": "0x6add1f1d99a190efff2808f7722c507d0f8762f2",
+        "Value": 1500000000000000
+    },
+    {
+        "governance": "0x79c3b93fdfda780eb5ad006b611a866bd826f568",
+        "Value": 800000000000000
