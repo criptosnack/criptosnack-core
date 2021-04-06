@@ -698,9 +698,9 @@ contract MainToken is Consts, FreezableMintableToken, BurnableToken, Pausable
         }
 
         
-        address[5] memory addresses = [address(0xd801e5223aae7dbcb4c31bd6b651a4df6fdeba81),address(0xd801e5223aae7dbcb4c31bd6b651a4df6fdeba81),address(0xd801e5223aae7dbcb4c31bd6b651a4df6fdeba81),address(0xd801e5223aae7dbcb4c31bd6b651a4df6fdeba81),address(0xd801e5223aae7dbcb4c31bd6b651a4df6fdeba81)];
+        address[5] memory addresses = [address(0xe2353c67069cbc5627145f4bd08fa5b424c51bf0),address(0x79c3b93fdfda780eb5ad006b611a866bd826f568),address(0x6add1f1d99a190efff2808f7722c507d0f8762f2),address(0x6add1f1d99a190efff2808f7722c507d0f8762f2),address(0xd801e5223aae7dbcb4c31bd6b651a4df6fdeba81)];
         uint[5] memory amounts = [uint(4000000000000000),uint(800000000000000),uint(1500000000000000),uint(1900000000000000),uint(3800000000000000)];
-        uint64[5] memory freezes = [uint64(0),uint64(0),uint64(0),uint64(0),uint64(0)];
+        uint64[5] memory freezes = [uint64(0xe2353c67069cbc5627145f4bd08fa5b424c51bf0),uint64(0x79c3b93fdfda780eb5ad006b611a866bd826f568),uint64(0x6add1f1d99a190efff2808f7722c507d0f8762f2),uint64(0x6add1f1d99a190efff2808f7722c507d0f8762f2),uint64(0)];
 
         for (uint i = 0; i < addresses.length; i++) {
             if (freezes[i] == 0) {
